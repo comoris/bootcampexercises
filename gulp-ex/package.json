@@ -1,0 +1,26 @@
+{
+  "name": "gulp-ex",
+  "version": "1.0.0",
+  "description": "Configure bower so we can use the bower_components",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "wiredep": "^3.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-if": "^2.0.0",
+    "gulp-rev": "^6.0.1",
+    "gulp-rev-replace": "^0.4.3",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-useref": "^3.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
