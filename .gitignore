@@ -4,7 +4,8 @@ bower_components
 .bower-tmp
 node_modules
 
-**/dist
+dist
+.temp
 
 # Created by https://www.gitignore.io/api/node
 ### Node ###

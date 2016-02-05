@@ -1,10 +1,8 @@
 {
-  "name": "webpack-exercise",
+  "name": "webpack-ex",
   "version": "1.0.0",
-  "description": "webpack workflow exercise",
+  "description": "Serves the developer to start the app in the browser",
   "main": "index.js",
-  "scripts": {
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -13,5 +11,18 @@
     "jquery": "^2.2.0"
   },
   "devDependencies": {
+    "css-loader": "^0.23.1",
+    "html-loader": "^0.4.0",
+    "html-webpack-plugin": "^2.8.1",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "serve": "webpack-dev-server --hot --inline",
+    "dev": "webpack",
+    "build": "NODE_ENV=prod webpack -p"
   }
 }

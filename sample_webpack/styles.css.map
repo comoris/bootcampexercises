@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///webpack:///style.scss"],"names":[],"mappings":"AAEA;EACI,gBAHe,EAIlB","file":"styles.css","sourcesContent":["$primary-color: red;\n\nbody {\n    background: $primary-color;\n}\n\n\n\n/** WEBPACK FOOTER **\n ** webpack:///style.scss\n **/"],"sourceRoot":""}

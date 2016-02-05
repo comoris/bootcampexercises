@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./app2.js"],"names":[],"mappings":";;;;;;AAAA,KAAI,cAAc,oBAAQ,CAAR,CAAd;;AAEJ,SAAQ,GAAR,CAAY,cAAZ,E","file":"b._3d6bbabdd6cf2d161fd4.js","sourcesContent":["var userService = require('./userService');\n\nconsole.log('in de 2e app');\n\n\n\n/** WEBPACK FOOTER **\n ** ./app2.js\n **/"],"sourceRoot":""}
