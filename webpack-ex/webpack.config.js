@@ -1,7 +1,8 @@
 var webpack = require("webpack");
 var path = require('path');
-
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 var env = process.env.NODE_ENV || 'dev' ;
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
     entry: './app/scripts/app.js',
@@ -13,7 +14,8 @@ module.exports = {
     module: {
       loaders: [
         { test: /\.scss$/, loader: 'style-loader!css-loader!sass-loader' },
-        { test: /\.html$/, loader: 'raw-loader' }
+        { test: /\.html$/, loader: 'raw-loader' },
+        { test: /\.css$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader") }
       ]
     },
     resolve: {
@@ -28,9 +30,8 @@ module.exports = {
         // create template file
         new HtmlWebpackPlugin({
             filename: '../index.html',
-            pkg: require('./package.json'),
-            template: 'index-template.html',
-            inject: false
-        })
+            template: 'app/index.html',
+        }),
+        new ExtractTextPlugin("styles.css")
     ]
 }
