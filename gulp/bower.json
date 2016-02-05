@@ -1,0 +1,23 @@
+{
+  "name": "gulp-task",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Peter Cosemans <peter.cosemans@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "director": "^1.2.8",
+    "handlebars": "^4.0.5"
+  }
+}

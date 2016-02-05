@@ -1,0 +1,28 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "authors": [
+    "Peter Cosemans <peter.cosemans@euri.com>"
+  ],
+  "description": "aaaaa",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "overrides": {
+    "bootstrap": {
+      "main": [
+          "dist/js/bootstrap.js"
+      ]
+    }
+  },
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.1",
+    "angular": "^1.4.9"
+  }
+}

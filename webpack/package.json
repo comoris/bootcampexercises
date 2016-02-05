@@ -1,0 +1,17 @@
+{
+  "name": "webpack-exercise",
+  "version": "1.0.0",
+  "description": "webpack workflow exercise",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "director": "^1.2.8",
+    "handlebars": "^4.0.5",
+    "jquery": "^2.2.0"
+  },
+  "devDependencies": {
+  }
+}
