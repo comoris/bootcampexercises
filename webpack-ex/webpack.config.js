@@ -8,14 +8,13 @@ module.exports = {
     entry: './app/scripts/app.js',
     output: {
         path: (env == 'prod') ? './dist/bundle' : './app/bundle',
-        filename: "bundle.js",
-        publicpath: 'bundle/',
+        filename: "bundle-[hash].js",
+        publicPath: 'bundle/',
     },
     module: {
       loaders: [
-        { test: /\.scss$/, loader: 'style-loader!css-loader!sass-loader' },
+        { test: /\.scss$/, loader: ExtractTextPlugin.extract('css-loader!sass-loader') },
         { test: /\.html$/, loader: 'raw-loader' },
-        { test: /\.css$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader") }
       ]
     },
     resolve: {
@@ -30,8 +29,8 @@ module.exports = {
         // create template file
         new HtmlWebpackPlugin({
             filename: '../index.html',
-            template: 'app/index.html',
+            template: 'app/index-template.html',
         }),
-        new ExtractTextPlugin("styles.css")
+        new ExtractTextPlugin("styles-[hash].css")
     ]
 }
