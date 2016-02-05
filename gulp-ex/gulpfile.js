@@ -55,7 +55,7 @@ gulp.task('wiredep', function () {
       optional: 'configuration',
       goes: 'here'
     }))
-    .pipe(gulp.dest('./dest'));
+    .pipe(gulp.dest('./app'));
 });
 
 /* ------------------ */
