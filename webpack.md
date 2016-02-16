@@ -25,7 +25,7 @@ create package.json
 
     # add local webpack
     # this ensure we have control over the webpack version
-    npm install webpack --save-dev
+        npm install webpack --save-dev
 
 userService.js
 

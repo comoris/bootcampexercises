@@ -1,6 +1,6 @@
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
-// var Bowerplugin = require("bower-webpack-plugin");
-var webpack = require("webpack");
+// var Bowerplugin    = require("bower-webpack-plugin");
+var webpack           = require("webpack");
 
 module.exports = {
     entry: {

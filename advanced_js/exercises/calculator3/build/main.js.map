@@ -1,0 +1,1 @@
+{"version":3,"sources":["../server/main.js"],"names":[],"mappings":";;AAAA,QAAQ,qBAAR;AACA,QAAQ,gBAAR;AACA,QAAQ,UAAR","file":"main.js","sourcesContent":["require('babel-core/register');\nrequire('babel-polyfill');\nrequire('./app.js');\n"]}
