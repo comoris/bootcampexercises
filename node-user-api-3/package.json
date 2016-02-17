@@ -1,0 +1,23 @@
+{
+  "name": "temp2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server --exec babel-node --presets es2015"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "faker": "^3.0.1",
+    "http-status-codes": "^1.0.6",
+    "mongoose": "^4.4.3",
+    "morgan": "^1.6.1",
+    "shortid": "^2.2.4"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.5.0"
+  },
+  "description": ""
+}
